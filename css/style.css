@@ -1,13 +1,15 @@
+/* general */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+}
+body {
   color: rgb(240 244 253);
 }
 .btn {
-  /* padding: 7px 20px; */
   border-radius: 30px;
   font-weight: 400;
 }
@@ -25,14 +27,12 @@
 .big {
   padding: 15px 30px;
 }
-
 .dashed-border {
   border: dashed 2px black;
 }
-
+/* general */
 
 /* header */
-
 header {
   height: 60px;
   background-color:rgb(49 97 224);
@@ -61,13 +61,11 @@ nav ul li {
 }
 nav ul li a{
   text-decoration: none;
+  color: white;
 }
-
 /* /header */
 
-
 /* jumbotron */
-
 .jumbotron {
   min-height: 500px;
   background-image: url(../img/jumbo.png);
@@ -100,11 +98,9 @@ nav ul li a{
 }
 /* /jumbotron */
 
-
 /* first-second-third section */
-
 .container {
-  height: 320px;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,17 +109,42 @@ nav ul li a{
   background-color:rgb(211 211 211) ;
 }
 .box {
-  height: 270px;
+  min-height: 400px;
 }
-.blue.box {
+.img.box {
   width: 40%;
-  background-color:rgb(29 144 255) ;
 }
-.pink.box {
+.text.box {
   width: 30%;
-  background-color: rgb(255 191 203);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(30 34 36);
 }
-
+.box.background  {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box.background.frog {
+  background-image: url(../img/item1.svg);
+}
+.box.background.voice {
+  background-image: url(../img/item2.svg);
+}
+.box.background.coach {
+  background-image: url(../img/item3.svg);
+}
+.box.text > h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.box.text > p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
 /* /first-second-third section */
 
 
