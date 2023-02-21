@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashed-border {
+  border: dashed 2px black;
+}
+
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 10px 0;
+  background-color: rgb(173 216 230);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: rgb(218 165 33);
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+/* /header */
+
+
+/* jumbotron */
+
+.jumbotron {
+  height: 320px;
+  background-color: rgb(0 0 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron-content {
+  width: 55%;
+  height: 280px;
+  background-color: rgb(238 129 238);
+}
+
+/* /jumbotron */
+
+
+/* first-second-third section */
+
+.container {
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gray{
+  background-color:rgb(211 211 211) ;
+}
+.box {
+  height: 270px;
+}
+.blue.box {
+  width: 40%;
+  background-color:rgb(29 144 255) ;
+}
+.pink.box {
+  width: 30%;
+  background-color: rgb(255 191 203);
+}
+
+/* /first-second-third section */
+
+
+/* green-box-section */
+
+.big-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.green-box {
+  width: 70%;
+  height: 450px;
+  background-color: rgb(35 139 33);
+}
+
+/* green-box-section */
+
+
+/* upper footer */
+
+.footer{
+  background-color: rgb(34 39 42);
+  display: flex;
+  justify-content: center;
+}
+.upper.footer {
+  height: 325px;
+  padding-top: 5px;
+  border-bottom: 2px solid rgb(180 180 181);
+}
+.main-footer-box {
+  width: 22%;
+  height: 300px;
+  background-color: rgb(240 128 129);
+}
+.small-footer-box {
+  height: 300px;
+  width: 12%;
+  background-color: rgb(33 178 170);
+  border: 2px dashed white;
+}
+
+/* /upper footer */
+
+
+/* lower footer */
+
+.lower.footer {
+  height: 50px;
+  align-items: flex-end;
+}
+.lower-footer-box {
+  width: 70%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(125 255 212);
+}
+.minibox {
+  height: 18px;
+  width: 7%;
+  background-color: rgb(255 182 194);
+  font-size: 10px;
+  text-align: center;
+}
+
+/* /lower footer */
