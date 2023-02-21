@@ -2,6 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: rgb(240 244 253);
+}
+.btn {
+  /* padding: 7px 20px; */
+  border-radius: 30px;
+  font-weight: 400;
+}
+.white {
+  background-color: rgb(240 244 253);
+  color: rgb(35 39 41);
+}
+.black {
+  background-color: rgb(35 39 41);
+  color: rgb(240 244 253);
+}
+.small {
+  padding: 7px 20px;
+}
+.big {
+  padding: 15px 30px;
 }
 
 .dashed-border {
@@ -12,26 +34,33 @@
 /* header */
 
 header {
-  display: flex;
-  align-items: center;
   height: 60px;
-  padding: 10px 0;
-  background-color: rgb(173 216 230);
+  background-color:rgb(49 97 224);
+  display: flex;
+  justify-content: center;
 }
 .header-container {
+  height: 100%;
+  width: 70%;
+  background-color: rgb(38 94 233);
   display: flex;
   justify-content: space-between;
-  width: 70%;
-  padding: 5px;
-  margin: 0 auto;
-  background-color: rgb(218 165 33);
+  align-items: center;
+}
+.logo img{
+  width: 120px;
+  padding-top: 5px;
 }
 nav ul {
   display: flex;
+  font-size: 14px;
 }
 nav ul li {
   list-style: none;
-  margin-right: 10px;
+  margin-right: 25px;
+}
+nav ul li a{
+  text-decoration: none;
 }
 
 /* /header */
@@ -40,18 +69,35 @@ nav ul li {
 /* jumbotron */
 
 .jumbotron {
-  height: 320px;
-  background-color: rgb(0 0 139);
+  min-height: 500px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* padding: 30px 0; */
 }
 .jumbotron-content {
+  min-height: 300px;
+  max-width: 700px;
   width: 55%;
-  height: 280px;
-  background-color: rgb(238 129 238);
+  height: 100%;
+  text-align: center;
+  /* background-color: rgb(238 129 238); */
 }
-
+.jumbotron > div > h1 {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.jumbotron > div > p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.jumbotron .jumbotron-content > span {
+  margin-right: 15px;
+}
 /* /jumbotron */
 
 
@@ -148,3 +194,21 @@ nav ul li {
 }
 
 /* /lower footer */
+
+/* .debug{
+  height: 60px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+}
+.cnt {
+  height: 100%;
+  width: 70%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-top: 5px;
+} */
