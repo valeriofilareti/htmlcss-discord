@@ -21,14 +21,32 @@ body {
   background-color: rgb(35 39 41);
   color: rgb(240 244 253);
 }
+.purple {
+  background-color: rgb(143 161 225);
+  color: rgb(240 244 253);
+}
 .small {
   padding: 7px 20px;
+  font-size: 14px;
 }
 .big {
   padding: 15px 30px;
 }
 .dashed-border {
   border: dashed 2px black;
+}
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+section {
+  color: rgb(29 34 35);
 }
 /* general */
 
@@ -46,6 +64,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: ;
 }
 .logo img{
   width: 120px;
@@ -74,7 +93,6 @@ nav ul li a{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 30px 0; */
 }
 .jumbotron-content {
   min-height: 300px;
@@ -82,7 +100,6 @@ nav ul li a{
   width: 55%;
   height: 100%;
   text-align: center;
-  /* background-color: rgb(238 129 238); */
 }
 .jumbotron > div > h1 {
   font-size: 50px;
@@ -119,9 +136,8 @@ nav ul li a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: rgb(30 34 36);
 }
-.box.background  {
+.background  {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -135,31 +151,26 @@ nav ul li a{
 .box.background.coach {
   background-image: url(../img/item3.svg);
 }
-.box.text > h2 {
-  font-size: 40px;
-  font-weight: 800;
-  margin-bottom: 18px;
-}
-.box.text > p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 25px;
-}
 /* /first-second-third section */
 
 
 /* green-box-section */
-
-.big-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
-.green-box {
+.big-box {
   width: 70%;
-  height: 450px;
-  background-color: rgb(35 139 33);
+  min-height: 450px;
+  text-align: center;
+}
+.background.last {
+  min-width: 300px;
+  min-height: 450px;
+  background-image: url(../img/item4-big.svg);
+}
+.big-box > h3 {
+  margin-top: -10px;
+  margin-bottom: 35px;
+}
+.big-box > img {
+  width: 350px;
 }
 
 /* green-box-section */
